@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stage Scraper</title>
+  <meta name="description" content="Personal, non-commercial internship search tool built by an engineering student.">
+  <style>
+    :root { --fond: #fafaf8; --texte: #1f2328; --doux: #59636e; --accent: #0b6e4f; --bord: #e3e3dd; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fond: #16181b; --texte: #e6e6e3; --doux: #a0a6ad; --accent: #4cc39a; --bord: #2c3036; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--fond); color: var(--texte);
+           font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 56px 20px 80px; }
+    h1 { font-size: 2rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+    .sous-titre { color: var(--doux); margin: 0 0 40px; }
+    h2 { font-size: 1.05rem; margin: 36px 0 8px; color: var(--accent); }
+    ul { padding-left: 1.2em; }
+    li { margin: 4px 0; }
+    footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid var(--bord); color: var(--doux); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Stage Scraper</h1>
+    <p class="sous-titre">A personal internship search assistant, built by an engineering student.</p>
+
+    <h2>What it is</h2>
+    <p>
+      Stage Scraper is a personal, non-commercial project I am building during my 4th year of engineering
+      studies (ESILV, Paris, MedTech &amp; Health major). I am looking for an internship in medtech and digital
+      health, ideally in AI and data roles, and offers are scattered across dozens of websites.
+    </p>
+
+    <h2>What it does</h2>
+    <ul>
+      <li>Searches internship offers in the Île-de-France region from a few job search sources.</li>
+      <li>Removes duplicates and ranks offers against my own profile.</li>
+      <li>Helps me keep track of my applications.</li>
+    </ul>
+
+    <h2>What it does not do</h2>
+    <ul>
+      <li>It is not a public job board: offers are not republished or displayed to anyone else.</li>
+      <li>It runs locally on my own computer, with a single user (me) and a low volume of searches.</li>
+      <li>It has no commercial purpose and no advertising.</li>
+    </ul>
+
+    <footer>Student project, 2026–2027.</footer>
+  </main>
+</body>
+</html>
